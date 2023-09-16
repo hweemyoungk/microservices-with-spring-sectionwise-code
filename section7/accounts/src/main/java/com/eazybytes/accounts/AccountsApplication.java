@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScans;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@RefreshScope
+@RefreshScope // TODO gives /actuator/refresh endpoint for pulling latest properties from config server.
 @ComponentScans({ @ComponentScan("com.eazybytes.accounts.controller")})
 @EnableJpaRepositories("com.eazybytes.accounts.repository")
 @EntityScan("com.eazybytes.accounts.model")

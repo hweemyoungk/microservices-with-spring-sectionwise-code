@@ -49,7 +49,7 @@ public class LoansController {
 	public String getPropertyDetails() throws JsonProcessingException {
 		ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
 		Properties properties = new Properties(loansConfig.getMsg(), loansConfig.getBuildVersion(),
-				loansConfig.getMailDetails(), loansConfig.getActiveBranches());
+				loansConfig.getMailDetails(), loansConfig.getActiveBranches(), loansConfig.getFoo());
 		String jsonStr = ow.writeValueAsString(properties);
 		return jsonStr;
 	}

@@ -26,5 +26,6 @@ public class LoansServiceConfig {
 	 private String buildVersion;
 	 private Map<String, String> mailDetails;
 	 private List<String> activeBranches;
+	 private String foo; // What if foo not exists in properties file? -> sets null
 
 }

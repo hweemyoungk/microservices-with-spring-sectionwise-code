@@ -68,7 +68,7 @@ your pom.xml should looks like shown below,
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>eazybytes/${project.artifactId}</name>
+						<name>hweem0/${project.artifactId}</name>
 					</image>
 				</configuration>
 			</plugin>
@@ -299,7 +299,7 @@ encrypt.key=eazybytes
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>eazybytes/${project.artifactId}</name>
+						<name>hweem0/${project.artifactId}</name>
 					</image>
 				</configuration>
 			</plugin>
@@ -384,7 +384,7 @@ encrypt.key=eazybytes
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>eazybytes/${project.artifactId}</name>
+						<name>hweem0/${project.artifactId}</name>
 					</image>
 				</configuration>
 			</plugin>
